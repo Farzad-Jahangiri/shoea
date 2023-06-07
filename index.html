@@ -10,7 +10,7 @@
 <body>
     <div class="home">
 
-        <div class="landingPage">
+        <div class="landingPage d-none">
             <div class="logLanding">
                 <div class="logo"><img src="./assets/data/icon/S-logo.png" width="40px" alt="image"></div>
                 <div class="logo-shoea">Shoea</div>
@@ -20,7 +20,7 @@
 
         </div>
 
-        <div class="page-next-lading">
+        <div class="page-next-lading d-none">
             <div class="opaciti-page-next-lading">
                 <div class="welcome">
                     <h3 class="">Welcome to</h3>
@@ -30,6 +30,27 @@
             </div>
         </div>
 
+        <div class="carousel">
+            <div class="carousel-container">
+                <img id="img-carousel" src="./assets/data/carousel/1.png" width="100%" height="100%" alt="imag">
+            </div>
+            <div class="carousel-caption">
+                <p id="carousel-caption">
+                    We provide high quality products just for you
+                </p>
+                <div id="carousel-line-activate" class="carousel-line-activate">
+                    <div data-name="1" class="slide-activate active-slide"></div>
+                    <div data-name="2" class="slide-activate"></div>
+                    <div data-name="3" class="slide-activate"></div>
+                </div>
+            </div>
+            <div class="next-button">
+                <button id="next-button">Next</button>
+            </div>
+          </div>
+
     </div>
+
+    <script src="./assets/js/carousel.js"></script>
 </body>
 </html>
